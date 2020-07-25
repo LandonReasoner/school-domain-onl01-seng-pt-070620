@@ -21,6 +21,7 @@ attr_accessor :name, :roster
    @roster.each do |grade, name| 
      @sorted_roster[grade] = name.sort
    end
+   @sorted_roster
  end
 end
 # code here!
